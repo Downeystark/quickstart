@@ -1,0 +1,10 @@
+<!-- This is our View -->
+<view class="top"> {{topname}}! </view>
+<button bindtap="changeName"> Click me! </button>
+<view class="bottom"> {{bottomname}}! </view>
+<view wx:for="{{array}}"> {{item}} </view>
+<button bindtap="golist"> list! </button>
+<button bindtap="gomodeltest"> model! </button>
+<button bindtap="goitem"> item! </button>
+<button bindtap="goscrollview"> scrollview! </button>
+<button bindtap="goswiper"> swiper! </button>

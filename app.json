@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/table/table",
+    "pages/list/list",
+    "pages/models/models",
+    "pages/item/item",
+    "pages/scrollview/scrollview",
+    "pages/swiper/swiper"
+  ],
+  "window":{
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "table功能展示",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "page/index/list",
+      "text": "下拉刷新",
+      "iconPath":"",
+      "selectedIconPath":""
+
+    }, {
+      "pagePath": "page/logs/logs",
+      "text": "日志"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

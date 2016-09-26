@@ -1,0 +1,9 @@
+.top{
+    height: 50%;
+    text-align: center;
+    line-height: 80rpx;
+}
+.bottom{
+    height: 50%;
+    text-align: center;
+}

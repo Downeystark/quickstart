@@ -1,0 +1,3 @@
+<!-- This is our View -->
+<view class="top" bindtap="gotop"> RE:LIFE </view>
+<view class="bottom"> RE:FUTURE </view>
